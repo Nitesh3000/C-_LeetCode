@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-#include "../ListNode.h"
+
 using namespace std;
 class Problem876{
 public:
@@ -23,12 +23,4 @@ public:
         return slow;
     }
 };
-int main(){
-        vector<int> values = {1, 2, 3, 4, 5};
 
-    // Create a linked list from the vector
-    ListNode* head = ListNode::createLinkedList(values);
-    Problem876 problem;
-    ListNode* middle = problem.middleNode(head);
-    cout<<middle->val<<"\n";
-}

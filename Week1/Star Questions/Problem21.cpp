@@ -49,7 +49,7 @@ int main(){
     ListNode* head1 = ListNode::createLinkedList(values1);
 
     
-    vector<int> values2 = {1, 2, 3, 4, 5};
+    vector<int> values2 = {1,2,4};
 
     // Create a linked list from the vector
     ListNode* head2 = ListNode::createLinkedList(values1);
